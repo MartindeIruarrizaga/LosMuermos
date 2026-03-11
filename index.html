@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Proop · Presentaciones de Proyectos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/css/base.css">
+<style>
+  body{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:var(--s16) var(--px)}
+  .landing{max-width:900px;width:100%;text-align:center}
+  .landing-logo{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:var(--s8x);font-size:var(--t2);font-weight:700;animation:fadeUp .8s var(--ease) both}
+  .lb{display:flex;align-items:flex-end;gap:3px;height:24px}
+  .lb span{width:4px;background:var(--green);border-radius:2px}
+  .lb span:nth-child(1){height:9px}.lb span:nth-child(2){height:15px}
+  .lb span:nth-child(3){height:24px}.lb span:nth-child(4){height:15px}
+  .landing h1{font-family:var(--fd);font-size:clamp(2rem,6vw,4rem);font-weight:400;color:#fff;margin-bottom:var(--s4x);animation:fadeUp .9s .1s var(--ease) both}
+  .landing p{color:var(--tx2);margin-bottom:var(--s12);animation:fadeUp .9s .2s var(--ease) both}
+  .pres-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--s6x);text-align:left;animation:fadeUp .9s .3s var(--ease) both}
+  .pres-card{
+    background:var(--s2);border:1px solid var(--border);border-radius:var(--rl);
+    padding:var(--s8x);cursor:pointer;
+    transition:transform var(--tm) var(--ease),border-color var(--tm) var(--ease),box-shadow var(--tm) var(--ease);
+    display:block;
+  }
+  .pres-card:hover{transform:translateY(-6px);border-color:var(--bh);box-shadow:0 16px 50px rgba(0,0,0,.6)}
+  .pres-card__badge{margin-bottom:var(--s4x)}
+  .pres-card__city{font-family:var(--fd);font-size:var(--t2);color:#fff;margin-bottom:var(--s2x)}
+  .pres-card__region{font-size:var(--tsm);color:var(--tx2);margin-bottom:var(--s6x)}
+  .pres-card__desc{font-size:var(--tsm);color:var(--tx2);line-height:1.65;margin-bottom:var(--s6x)}
+  .pres-card__tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:var(--s8x)}
+  .pres-card__cta{
+    display:inline-flex;align-items:center;gap:6px;
+    font-size:var(--tsm);font-weight:700;color:var(--green);
+    letter-spacing:.04em;
+  }
+  .pres-card__cta::after{content:'→';transition:transform var(--tf)}
+  .pres-card:hover .pres-card__cta::after{transform:translateX(4px)}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+
+<div class="landing">
+  <div class="landing-logo">
+    <div class="lb"><span></span><span></span><span></span><span></span></div>
+    <span style="color:#fff"><em style="color:var(--green);font-style:normal">Proop</em> · Proyectos</span>
+  </div>
+
+  <h1>Presentaciones de<br><em style="font-style:italic">proyectos</em></h1>
+  <p class="lead" style="margin:0 auto var(--s12)">Selecciona la presentación que deseas ver.</p>
+
+  <div class="pres-grid">
+    <!-- Los Muermos -->
+    <a href="brands/los-muermos/index.html" class="pres-card">
+      <div class="pres-card__badge">
+        <span class="pill pill--s">Centro Comercial</span>
+      </div>
+      <div class="pres-card__city">Los Muermos</div>
+      <div class="pres-card__region">📍 Región de Los Lagos</div>
+      <div class="pres-card__desc">
+        Desarrollo de estación de servicio, supermercado y locales comerciales
+        en terreno de 5.800 m² sobre Ruta U-40.
+      </div>
+      <div class="pres-card__tags">
+        <span class="pill pill--o" style="font-size:0.65rem;padding:2px 10px">5.800 m²</span>
+        <span class="pill pill--o" style="font-size:0.65rem;padding:2px 10px">2 Anclas</span>
+        <span class="pill pill--o" style="font-size:0.65rem;padding:2px 10px">1.324 UF/mes</span>
+      </div>
+      <span class="pres-card__cta">Ver presentación</span>
+    </a>
+
+    <!-- Placeholder para futuros proyectos -->
+    <div class="pres-card" style="opacity:.4;cursor:default;border-style:dashed">
+      <div class="pres-card__badge">
+        <span class="pill pill--s">Próximamente</span>
+      </div>
+      <div class="pres-card__city" style="color:var(--tx3)">Nuevo proyecto</div>
+      <div class="pres-card__region" style="color:var(--tx3)">Región de Los Lagos</div>
+      <div class="pres-card__desc">Duplica la carpeta <code style="color:var(--green-light);background:var(--s3);padding:2px 6px;border-radius:4px">/brands/nombre/</code> para agregar nuevas presentaciones.</div>
+    </div>
+  </div>
+
+  <p style="margin-top:var(--s16);font-size:var(--ts);color:var(--tx3);letter-spacing:.1em">
+    © 2025 Proop Gestión Inmobiliaria · <a href="mailto:fcorrea@proop.cl" style="color:var(--green-light)">fcorrea@proop.cl</a>
+  </p>
+</div>
+
+</body>
+</html>

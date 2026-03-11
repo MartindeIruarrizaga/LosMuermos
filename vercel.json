@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/brands/los-muermos", "destination": "/brands/los-muermos/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+    }
+  ]
+}
