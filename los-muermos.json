@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "titulo": "Los Muermos",
+    "subtitulo": "Centro Comercial · Estación de Servicio · Supermercado",
+    "cliente": "Comprinsem",
+    "fecha": "2025"
+  },
+  "terreno": {
+    "m2": 5800,
+    "ciudad": "Los Muermos",
+    "region": "Región de Los Lagos",
+    "via": "Ruta U-40",
+    "poblacion": 11000,
+    "influencia": 14500,
+    "km_puerto_montt": 52,
+    "km_puerto_varas": 38,
+    "km_maullin": 22
+  },
+  "virtudes": [
+    { "icon": "📍", "title": "Ubicación central",      "body": "En el corazón de Los Muermos sobre Ruta U-40, arteria principal de tráfico vehicular y peatonal de la ciudad." },
+    { "icon": "🛣️", "title": "Conectividad superior",   "body": "Acceso directo Ruta U-40: Puerto Montt 52 km, Puerto Varas 38 km, Maullín 22 km. Nudo de flujo permanente." },
+    { "icon": "👥", "title": "Mercado sin cubrir",      "body": "~11.000 habitantes con área de influencia de 14.500 personas. Baja oferta de servicios comerciales modernos." },
+    { "icon": "🏪", "title": "Demanda insatisfecha",    "body": "Sin supermercado de cadena ni estación de servicio de marca en toda la ciudad. Demanda embalsada lista para activarse." },
+    { "icon": "📐", "title": "5.800 m² óptimos",       "body": "Superficie que permite tienda ancla, estación de servicio, locales complementarios y estacionamientos con holgura." },
+    { "icon": "🌱", "title": "Crecimiento sostenido",   "body": "Ciudad en expansión dentro del corredor turístico-productivo de la Región de Los Lagos." }
+  ],
+  "kpis": [
+    { "val": 5800,  "suf": "",  "lbl": "m² terreno"         },
+    { "val": 11000, "suf": "+", "lbl": "Habitantes ciudad"   },
+    { "val": 14500, "suf": "+", "lbl": "Área de influencia"  },
+    { "val": 52,    "suf": "",  "lbl": "km a Pto. Montt"     }
+  ],
+  "programa": [
+    { "uso": "Supermercado ancla",        "m2": 1350, "pct": 23 },
+    { "uso": "Estación de servicio",      "m2": 1100, "pct": 19 },
+    { "uso": "Locales Tipo A (×3)",       "m2":  450, "pct":  8 },
+    { "uso": "Locales Tipo B (×4)",       "m2":  320, "pct":  6 },
+    { "uso": "Tienda conveniencia",       "m2":  120, "pct":  2 },
+    { "uso": "Estac. + áreas comunes",    "m2": 2460, "pct": 42 }
+  ],
+  "proop": {
+    "slogan": "Convertimos ideas en proyectos inmobiliarios reales, eficientes y rentables.",
+    "descripcion": "Proop Gestión Inmobiliaria desarrolla proyectos comerciales y residenciales en el sur de Chile. Actuamos como mandante, gestor y articulador entre propietarios de terrenos y operadores de retail.",
+    "proyectos": [
+      { "nombre": "CC Rosa Emilia",  "ciudad": "Puerto Varas", "tipo": "Strip Center",  "locales": 18, "m2": 2900, "ancla": "Unimarc",      "estado": "En desarrollo" },
+      { "nombre": "Paseo Santa Ana", "ciudad": "Curicó",       "tipo": "Strip Center",  "locales": 15, "m2": 3022, "ancla": "Unimarc",      "estado": "En desarrollo" },
+      { "nombre": "CC Viento Sur",   "ciudad": "Puerto Montt", "tipo": "Est. Servicio", "locales":  9, "m2":  400, "ancla": "Esmax/Aramco", "estado": "En desarrollo" }
+    ],
+    "diferenciadores": [
+      { "icon": "🤝", "title": "Contactos activos",           "body": "Relaciones directas con SMU (Unimarc, Trébol, Super10), Esmax/Aramco, Cruz Verde, Sushitake y más cadenas nacionales." },
+      { "icon": "📊", "title": "Gestión integral",            "body": "Cubrimos el ciclo completo: intermediación, desarrollo, financiamiento, permisos y gerenciamiento de obra." },
+      { "icon": "🌍", "title": "Conocimiento regional",       "body": "Proyectos activos en la Región de Los Lagos y Maule. Entendemos la demografía, demanda y tiempos locales." },
+      { "icon": "🏗️", "title": "Constructora y alianzas",    "body": "Contamos con constructora propia y partners estratégicos para garantizar calidad, plazos y rentabilidad." }
+    ]
+  },
+  "operadores": [
+    {
+      "num": "01",
+      "tipo": "Tienda Ancla",
+      "rubro": "Supermercado de cadena",
+      "m2": "1.200 – 1.500 m²",
+      "plazo": "10 años",
+      "estado": "En conversación activa",
+      "desc": "Cadena nacional interesada en el formato de barrio. Los Muermos representa una plaza sin competencia formal, con alta demanda insatisfecha."
+    },
+    {
+      "num": "02",
+      "tipo": "Tienda Ancla",
+      "rubro": "Estación de servicio",
+      "m2": "1.000 – 1.200 m²",
+      "plazo": "15 años",
+      "estado": "En conversación activa",
+      "desc": "Operador de combustibles con red nacional. Ruta U-40 presenta flujo vehicular continuo y ausencia de competencia en la calzada."
+    }
+  ],
+  "rent_roll": {
+    "nota": "Estimaciones preliminares sujetas a cabida definitiva y negociación.",
+    "items": [
+      { "local": "Supermercado ancla",     "m2": 1350, "uf_m2": 0.35, "uf_mes":  472, "plazo": "10 años" },
+      { "local": "Estación de servicio",   "m2": 1100, "uf_m2": 0.32, "uf_mes":  352, "plazo": "15 años" },
+      { "local": "Locales Tipo A (×3)",    "m2":  450, "uf_m2": 0.55, "uf_mes":  248, "plazo": "3 años"  },
+      { "local": "Locales Tipo B (×4)",    "m2":  320, "uf_m2": 0.60, "uf_mes":  192, "plazo": "3 años"  },
+      { "local": "Tienda conveniencia",    "m2":  120, "uf_m2": 0.50, "uf_mes":   60, "plazo": "5 años"  }
+    ],
+    "total_mes": 1324,
+    "total_anual": 15888,
+    "kpis": [
+      { "val": 1324,  "suf": "", "lbl": "UF / mes estimado" },
+      { "val": 15888, "suf": "", "lbl": "UF / año estimado" },
+      { "val": 3340,  "suf": "", "lbl": "m² en renta"       }
+    ]
+  },
+  "chart": {
+    "labels":    ["Año 1","Año 2","Año 3","Año 4","Año 5","Año 6","Año 7","Año 8"],
+    "renta":     [15888, 16364, 16855, 17361, 17882, 18418, 18971, 19540],
+    "ocupacion": [82, 90, 95, 98, 98, 99, 99, 99]
+  },
+  "contacto": {
+    "nombre":   "Felipe Correa",
+    "cargo":    "Gerente General",
+    "email":    "fcorrea@proop.cl",
+    "ventas":   "ventas@proop.cl",
+    "tel":      "+56 9 9157 2915",
+    "web":      "www.proop.cl"
+  }
+}
